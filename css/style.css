@@ -1,0 +1,260 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing: border-box;
+	line-height: 2;
+}
+
+html{
+	height: 100%;
+}
+
+body{
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+
+	/******************************************
+					HEADER
+	******************************************/
+header{
+	width: 100%;
+	height: 100%;
+	max-height: 60px;
+	z-index: 9999;
+	min-width: 100%;
+	min-height: 100%;
+	position: fixed;
+	top: 0;
+}
+
+.block1 img{
+	width:100px;
+	margin-left:-30px;
+	margin-top:10px;
+}
+
+header a {
+	text-decoration: none;
+	padding: 5px 5px 0;
+}
+
+.navegador{
+	text-align: left;
+	padding: 10px;
+	width:100%;
+	max-width: 100%;
+	height: 60px;
+	background-color:white;
+
+}
+
+.logo {
+	float: left;
+	padding: auto;
+	height: 200px;
+	margin-left:70px;
+	width: 100px;
+}
+
+.contenedor{
+	width: 100%;
+	margin: 0 auto;
+	text-decoration:none;
+}
+
+.contenedor ul{
+	width: 100%;
+}
+
+.contenedor li a{
+	font-size: 16px;
+	color: rgba(0, 0, 0, 0.38);
+	text-decoration: none;
+	transition: 1s;
+	margin-left: 5px;
+	font-family:'Courier New', Courier, monospace,'sans-serif';
+}
+
+.contenedor li:hover a:hover{
+	font-size: 20px;
+	color: rgba(0, 0, 0, 0.38);
+	text-decoration: none;
+	border-bottom: 3px solid royalblue;
+	border-radius: 2px;
+	transition: 1s;
+}
+
+
+.contenedor li{
+	list-style: none;
+	display: inline;
+	padding:5px;
+}
+
+.contenedor a{
+	display: inline-block;
+}
+
+.activo {
+	border-radius: 2px;
+	border-bottom:3px solid royalblue;
+}
+
+.atractivo{
+	background-color:royalblue;
+	margin-top: 100px;
+	text-align: center;
+	height: 500px;
+	width: 100%;
+	height:0 auto;
+}
+
+.atractivo img{
+	height: 500px;
+}
+
+video{	
+	position: fixed;
+	min-width: 100%;
+	min-height: 50%;
+	z-index: -1;
+	transform: translateX(0) translateY(0);
+	filter: grayscale(100%); 
+}
+
+/**********************************
+*	Debajo de HEADER COMENZANDO
+**********************************/
+
+.atractivodown{
+	height: 100%;
+}
+
+.atractivodown .img1{
+	height: 600px;
+	position: absolute;
+	top: 840px;
+	margin-left: 30px;
+}
+
+
+.down-p h2{
+	display: inline;
+	position: relative;
+	top: 85px;
+	text-align: center;
+	margin-left: 550px;
+	font-size: 50px;
+}
+
+.down-p{
+	text-align: center;
+	height:100%;
+	background-image: url('img/christmasImage.jpg');
+}
+
+.baja .p1{
+	text-align: center;
+	position:relative;
+	top: 30px;
+	font-size: 30px;
+}
+
+.baja .p2:after, .baja .p2{
+	content: "\00bb";
+	transform: rotateZ(90deg);
+	opacity: 1;
+	color:rgba(0, 0, 0, 0.7);
+	text-align: center;
+	position:relative;
+	top: 10px;
+	left: 10px;
+	font-size: 40px;
+}
+
+.baja{
+	margin-bottom: 40px;
+	color: rgba(0, 0, 0, 0.7);
+}
+
+.down-p .paragraph{
+	margin: auto;
+	text-align: left;
+	font-size: 18px;
+	position: relative;
+	top: 100px;
+	margin-left:45%;
+	width: 700px;
+}
+
+/*********************
+*	header down down *
+*********************/
+
+.atractivodown-down img{
+	position: relative;
+	top: 1px;
+	height:100%;
+	width: auto;
+}
+
+.atractivodown-down{
+	height: 100%;
+	text-align: center;
+}
+
+.dipper-img{
+	text-align: center; 
+	background-color: royalblue; 
+	height: auto;
+}
+
+/***************Redes Sociales*****************/
+
+.sbutton a{
+	text-decoration: none;
+	font-size: 20px;
+	color: black;
+	font-family: 'Courier New' , Courier, monospace, 'sans-serif';
+}
+
+.sbutton{
+	background: white;
+	display: fixed;
+	border:none;
+	position: absolute;
+	right: 0;
+	border-radius: 3px;
+	margin-right: 100px;
+	cursor: pointer;
+	padding:8px 20px 8px 20px;
+}
+
+.sbutton:hover{
+	background: white;
+	display: fixed;
+	transform: scale(1.2);
+	float: right;
+	border-radius: 3px;
+	margin-right: 100px;
+	padding:8px 20px 8px 20px;
+}
+
+.dipper-img h3{
+	color: #fff;
+	font-family: Crimson Text;
+	font-size: 30px;
+}
+
+.dipper-img img:hover{
+	cursor: pointer;
+}
+
+/***************ALL RIGHTS RESERVED**************/
+
+.despedida{
+	text-align: center;
+	padding: 20px;
+}

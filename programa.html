@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Sitio Web | Programa</title>
+	<link rel="stylesheet" href="./css/programaStyle.css">
+</head>
+<body>
+	
+	<header>
+	<div class="block1">
+		<a href="#" class="logo">
+		<!--https://spacegrant.arizona.edu/sites/spacegrant.arizona.edu/files/about/logos/nic_print3600x2993ppi.png" alt="Starbucks-->
+			<img src="./img/6.png" class="img">
+		</a>
+
+	</div>
+		
+	<div class="block2">
+		<nav class="navegador">
+			
+			
+		<ul class="contenedor">
+			<li>
+				<a class="" href="./index.html">INICIO</a>
+			</li>
+			<li>
+				<a href="#" class="activo">PROGRAMA</a>
+			</li>
+			<li>
+				<a href="./galeria.html">GALERÍA</a>
+			</li>
+			<li>
+				<a href="./aliados.html">ALIADOS</a>
+			</li>
+			<li>
+				<a href="./desarrolladores.html">DESARROLLADORES</a>
+			</li>
+			<li>
+				<a href="./contacto.html">CONTACTO</a>
+			</li>
+		</ul>
+
+		</nav>
+	</div>
+
+	</header>
+ 
+	<div class="imagenFondo" style="background-image: url(./img/aweqwgds.jpg); height: 100%;">
+		<div class="textoImagen" style="">
+			<h1 style="">Coming Soon</h1>
+					<hr>
+			<p id="contador"></p>
+
+		</div>
+	</div>
+
+	<script>
+
+		var countDownDate = new Date("Feb 29, 2018, 5:00:00").getTime();
+
+// Update the count down every 1 second
+		var x = setInterval(function() {
+
+  // Get todays date and time
+  		var now = new Date().getTime();
+
+  // Find the distance between now an the count down date
+  		var fix = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+	  var dias = Math.floor(fix / (1000 * 60 * 60 * 24));
+	  var horas = Math.floor((fix % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+	  var nutos = Math.floor((fix % (1000 * 60 * 60)) / (1000 * 60));
+	  var gundos = Math.floor((fix % (1000 * 60)) / 1000);
+
+	  // Display the result in the element with id="demo"
+	  document.getElementById("contador").innerHTML = dias + "d " + horas + "h "
+	  + nutos + "m " + gundos + "s ";
+
+	  // If the count down is finished, write some text 
+	  if (distance < 0) {
+	    clearInterval(x);
+	    document.getElementById("contador").innerHTML = "EXPIRED";
+	  }
+	}, 1000);
+
+
+	</script>
+
+</body>
+</html>

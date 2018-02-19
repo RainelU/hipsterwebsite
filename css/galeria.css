@@ -1,0 +1,193 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing: border-box;
+	line-height: 2;
+}
+
+html{
+	height: 100%;
+	margin: 0;
+}
+
+body{
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+
+header{
+	width: 100%;
+	height: 100%;
+	max-height: 60px;
+	z-index: 9999;
+	position: fixed;
+	top: 0;
+}
+
+.block1 img{
+	width:100px;
+	margin-left:-30px;
+	margin-top:10px;
+}
+
+header a {
+	text-decoration: none;
+	padding: 5px 5px 0;
+}
+
+.navegador{
+	text-align: left;
+	padding: 10px;
+	max-width: 1000px;
+	width:100%;
+	height: 60px;
+	background-color:white;
+
+}
+
+.logo {
+	float: left;
+	padding: auto;
+	height: 200px;
+	margin-left:70px;
+	width: 110px;
+}
+
+.contenedor{
+	width: 100%;
+	margin:0 auto;
+	text-decoration:none;
+}
+
+.contenedor ul{
+	width: 100%;
+}
+
+.contenedor li a{
+	font-size: 16px;
+	color: rgba(0, 0, 0, 0.38);
+	text-decoration: none;
+	margin-left: 5px;
+	transition: 1s;
+	font-family:'Courier New', Courier, monospace,'sans-serif';
+}
+
+.contenedor li:hover a:hover{
+	font-size: 20px;
+	color: rgba(0, 0, 0, 0.38);
+	text-decoration: none;
+	border-bottom: 3px solid royalblue;
+	border-radius: 2px;
+	transition: 1s;
+}
+
+
+.contenedor li{
+	list-style: none;
+	display: inline;
+	padding:5px;
+}
+
+.contenedor a{
+	display: inline-block;
+}
+
+.activo {
+	border-radius: 2px;
+	border-bottom:3px solid royalblue;
+}
+
+.activo:hover {
+	border-radius: 2px;
+	border-bottom:3px solid royalblue;
+}
+
+
+/***************************************
+*          GALERIIIIIIIIIIIIIIA    	   *
+***************************************/
+
+.section-img{
+	max-width: 100%;
+	margin: 0 auto;
+	padding: 6% 5%;
+}
+
+.grid{
+	margin-left: 10px 0 0 0;
+	padding:0;
+	list-style: none;
+	display: block;
+	width: 100%;
+}
+
+.grid li{
+	border:.01px solid black;
+	width: 280px;
+	height: 280px;
+	display: inline-block;
+	margin: 20px;
+}
+
+.box{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	cursor: pointer;
+	border-radius: 10px;
+	-webkit-transition:0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+	-moz-transition:0.3s ease-in-out, -moz-transform 0.3s ease-in-out ;
+	transition:0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.box:hover{
+	transform: scale(1.1);
+}
+
+.img-9{
+	border:none;
+	box-shadow: 0px 1px 20px 3px rgba(0, 0, 0, 0.32);
+	background:
+	url(../img/enlacejj.gif);
+}
+
+.img-2{
+	border:none;
+	box-shadow: 0px 1px 20px 3px rgba(0, 0, 0, 0.32);
+	background: url(../img/aweqwgds.jpg)
+}
+
+.img-3{
+	border:none;
+	box-shadow: 0px 1px 20px 3px rgba(0, 0, 0, 0.32);
+	background: url(../img/aaaaa.jpg);
+	background-repeat: no-repeat;
+}
+
+.img-4{
+	border:none;
+	box-shadow: 0px 1px 20px 3px rgba(0, 0, 0, 0.32);
+	background: url(../img/a.jpg);
+	background-repeat: no-repeat;
+}
+.img-5{
+	border:none;
+	box-shadow: 0px 1px 20px 3px rgba(0, 0, 0, 0.32);
+	background: url(../img/bonita.jpg);
+	background-repeat: no-repeat;
+}
+
+.img-6{
+	border:none;
+	box-shadow: 0px 1px 20px 3px rgba(0, 0, 0, 0.32);
+	background: url(../img/christmasImage.jpg);
+	background-repeat: no-repeat;
+}
+
+.img-7{
+	border:none;
+	box-shadow: 0px 1px 20px 3px rgba(0, 0, 0, 0.32);
+	background: url(../img/kakaa.jpg);
+	background-repeat: no-repeat;
+}

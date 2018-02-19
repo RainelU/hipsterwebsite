@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Sitio Web | Contacto</title>
+	<link rel="stylesheet" href="./css/contactoStyle.css">
+
+	<?php 
+		$_POST['enviar'] = new button;
+
+		if ($button = 1) return 0; {
+				return "Hola, rainel.";
+		}
+
+
+	?>
+</head>
+<body>
+
+	<header>
+	<section class="block1">
+		<a href="#" class="logo">
+		<!--https://spacegrant.arizona.edu/sites/spacegrant.arizona.edu/files/about/logos/nic_print3600x2993ppi.png" alt="Starbucks-->
+			<img src="./img/6.png" class="img">
+		</a>
+
+	</section>
+		
+	<div class="block2">
+		<nav class="navegador">
+			
+		<ul class="contenedor" style="width: 100%;">
+			<li>
+				<a  href="./index.html">INICIO</a>
+			</li>
+			<li>
+				<a href="./programa.html">PROGRAMA</a>
+			</li>
+			<li>
+				<a href="./galeria.html">GALERÍA</a>
+			</li>
+			<li>
+				<a href="./aliados.html">ALIADOS</a>
+			</li>
+			<li>
+				<a href="./desarrolladores.html">DESARROLLADORES</a>
+			</li>
+			<li>
+				<a href="#" class="activo">CONTACTO</a>
+			</li>
+		</ul>
+		</nav>
+	</div>
+	</header>
+
+	<div class="container">
+		<div class="row">
+			<div class="fNameText">
+				<label for="fname">First Name..</label>
+			</div>			
+			<div class="fNameInput">
+				<input type="text" id="fname" name="firstname" placeholder="First name..">
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="lNameText">
+				<label for="fname">Last Name..</label>
+			</div>
+			<div class="lNameInput">
+				<input type="text" id="lname" name="lastname" placeholder="Last name.." style"">
+			</div>
+		</div>
+		
+		<div class="email">
+			<div class="emailText">
+				<label for="email">Email..</label>
+			</div>
+			<div class="emailInput">
+				<input type="email" id="email" placeholder="Email..">
+			</div>
+		</div>
+
+		<div class="country" style="text-align: center;"><label>Select your Country..</label>
+			<br>
+			<select name="country" id="country" style="">
+				<option value="australia">Australia</option>
+				<option value="united state">United State</option>
+				<option value="united kingdom">United Kingdom</option>
+				<option value="russia">Russia</option>
+				<option value="venezuela">Venezuela</option>
+				<option value="colombia">Colombia</option>
+				<option value="noruega">Noruega</option>
+			</select>
+		</div>
+
+		<div class="subject" style="">
+			<div class="subjectText">
+				<label for="subject">Subject..</label>
+			</div>
+
+			<div class="subjectTextarea">
+				<textarea name="subject" id="subject" cols="30" rows="10" placeholder="Write something, everywhere. Everytime." style="width: 400px; border-radius: 4px; padding-left: 30px; padding-right: 30px; height: 150px; "></textarea>
+			</div>
+		</div>
+		<div class="enviar">
+			<a href=""><input type="submit" id="enviar" name="enviar"></a>
+		</div>
+		
+</div>			
+</body>
+</html>
