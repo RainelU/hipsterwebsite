@@ -155,6 +155,7 @@ header a {
 	border:1px solid white; 
 	border-radius: 4px;
 	height: 35px;
+	cursor: pointer;
 }
 
 .subject{
